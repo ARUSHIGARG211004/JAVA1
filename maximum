@@ -1,0 +1,39 @@
+//CHECK THE GREATEST NUMBER USING TERNARY OPERATOR.
+import java.util.*;
+
+
+public class maximum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a:");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b:");
+        int b = sc.nextInt();
+        /*if(a>b)
+           System.out.println("a is greater");
+
+        else if(b>a)
+            System.out.println("b is greater");
+
+        else if(b==a)
+            System.out.println(" both are equal");
+
+        else
+            System.out.println("enter valid inputs");
+
+    }
+
+}*/
+        int c = a > b? a : b ;
+        System.out.println(c);
+    }
+}
+
+// ARUSHI GARG
+// 11
+//SECTION-G
+
+
+
+
+
