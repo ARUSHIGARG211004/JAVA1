@@ -1,0 +1,13 @@
+//WRITE A PROGRAM TO PRINT THE AREA OF RECTANGLE
+public class rectangle{
+    public static void main(String args[]){
+       int l=7;
+       int b=4;
+       int area=l*b;
+        System.out.println("the area is"+area);
+
+    }
+}
+//ARUSHI GARG
+//11
+//SECTION-G
