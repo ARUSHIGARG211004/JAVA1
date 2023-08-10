@@ -1,0 +1,26 @@
+//GREATEST BETWEEN 3 NUMBERS USING TERNARY OPERATOR.
+import java.util.*;
+public class maximum2{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        /*if(a>b && a>c){
+            System.out.println("a is greatest");
+        }
+        else if(b>c && b>a){
+            System.out.println("b is greatest ");
+        }
+        else{
+            System.out.println("c is greatest");
+        }
+    }
+}*/
+
+ int k=a>b && a>c? a:b>a&& b>c?b:c;
+
+
+// ARUSHI GARG
+//11
+//SECTION-G
