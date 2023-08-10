@@ -1,0 +1,27 @@
+//WRITE A PROGRAM TO CALCULATE THE FACTORIAL OF A NUMBER.
+import java.util.*;
+public class factorial1 {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter a number:");
+        int n=sc.nextInt();
+        if(n<0){
+            System.out.println("invalid");
+            return;
+
+        }
+        int f=1;
+        for(int i=n;i>=1;i--){
+            f=f*i;
+        }
+        System.out.println(f);
+
+
+    }
+
+
+}
+
+//ARUSHI GARG
+//11
+//SECTION-G
